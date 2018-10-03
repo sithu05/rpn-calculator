@@ -1,0 +1,24 @@
+{
+  "name": "rpn-expression",
+  "version": "1.0.0",
+  "description": "RPN Calculator Program",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js cal"
+  },
+  "keywords": [
+    "RPN",
+    "NodeJS"
+  ],
+  "author": "Si Thu Aung",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
